@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elegant College</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .bored {
+        border: 2px solid red;
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="text-[#1c1c1c]">
+    <!-- Design Start From This DIV -->
+    <div>
+      <!-- Hero Section -->
+      <div class="container mx-auto px-2 lg:px-5">
+        <!-- Nav -->
+        <nav class="py-5 flex justify-between items-center">
+          <div>
+            <p class="cursor-pointer font-extrabold text-4xl">
+              Grow<span class="text-[#32CD32]">Skill</span>
+            </p>
+          </div>
+
+          <div class="hidden lg:block">
+            <ul class="hidden lg:flex gap-6">
+              <li class="cursor-pointer hover:text-[#32CD32] transition-colors">
+                Home
+              </li>
+              <li class="cursor-pointer hover:text-[#32CD32] transition-colors">
+                Online Class
+              </li>
+              <li class="cursor-pointer hover:text-[#32CD32] transition-colors">
+                All Courses
+              </li>
+              <li class="cursor-pointer hover:text-[#32CD32] transition-colors">
+                English Language
+              </li>
+              <li class="cursor-pointer hover:text-[#32CD32] transition-colors">
+                About Us
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <!-- Button -->
+            <a href="#"
+              ><button
+                class="lg:block hidden px-5 py-2 bg-[#32CD32] hover:bg-[#66FF66] font-bold rounded-md"
+              >
+                Enroll Now
+              </button></a
+            >
+            <svg
+              class="block lg:hidden"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              height="35px"
+              width="35px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM104 228a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 284a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 284a56 56 0 1 0 112 0 56 56 0 1 0-112 0z"
+              ></path>
+            </svg>
+          </div>
+        </nav>
+
+        <!-- hero -->
+        <div
+          class="mt-5 md:mt-10 lg:mt-20 flex flex-col lg:flex-row gap-5 items-center"
+        >
+          <div class="w-full lg:w-1/2 flex flex-col gap-5">
+            <h1 class="text-4xl md:text-5xl font-bold">
+              Reach your goal with <br />
+              our top educators
+            </h1>
+            <p>
+              Over <span class="text-[#32CD32]">10M</span> learners have their
+              trust on us. We have helped
+              <span class="text-[#32CD32]">1000+ people</span> to find their
+              dream job.
+            </p>
+            <div class="flex flex-col gap-3">
+              <input
+                class="w-full border-2 border-stone-300 px-3 py-3 rounded-md"
+                type="email"
+                name="email"
+                placeholder="E-mail : yourmail@gmail.com"
+                id="#"
+              />
+              <a href="#"
+                ><button
+                  class="w-full py-3 bg-[#32CD32] hover:bg-[#66FF66] font-bold rounded-md"
+                >
+                  Get in Touch
+                </button></a
+              >
+            </div>
+          </div>
+          <!-- image Div -->
+          <div
+            class="w-full lg:w-1/2 grid grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-5 px-10"
+          >
+            <div class="xl:block hidden"></div>
+            <img
+              class=""
+              src="https://down-yuantu.pngtree.com/element_our/bg/20200327/bg/752a23ad0097a.png?e=1726240208&st=ZDk2NWViYjA0NmQwZDYzMjY4MGVlMDdiYTNhYWU4NjU&n=%E2%80%94Pngtree%E2%80%94hand+drawn+online+learning+reading_5341173.png"
+              alt=""
+            />
+            <img
+              class="mt-10 lg:-mt-52 block lg:hidden xl:block"
+              src="https://down-yuantu.pngtree.com/element_our/bg/20200327/bg/b6570604a9e55.png?e=1726240277&st=ZmM2ZjRiNDIyOGI1NWYwZDcyYWQzMjhiNTJkMjcxMjA&n=%E2%80%94Pngtree%E2%80%94hand+drawn+online+learning+cartoon_5341175.png"
+              alt=""
+            />
+            <div class="xl:block hidden"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Second Section -->
+      <div class="container mx-auto px-2 lg:px-5 mt-5 md:mt-10 lg:mt-20">
+        <!-- Head Title -->
+        <div class="flex flex-col items-center gap-3 lg:gap-5">
+          <h2 class="w-full lg:w-1/2 text-center font-bold text-4xl leading-30">
+            Start your Learning journey.
+          </h2>
+          <p class="w-full lg:w-1/2 text-center">
+            Go to the section of your choice to learn anything about anything
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5 lg:mt-10 w-4/5 lg:w-full mx-auto"
+        >
+          <!-- Card -->
+          <div
+            class="rounded-xl border-2 p-5 border-[#1e8fff3a] bg-[#1e8fff1a] flex gap-5 items-center"
+          >
+            <div>
+              <img
+                class="w-20 md:w-40"
+                src="https://cdn-icons-png.flaticon.com/512/8833/8833089.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="font-semibold text-3xl">School Tutor</p>
+              <p class="mt-3">
+                Live and Recorded class from Primary to High School.
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div
+            class="rounded-xl border-2 p-5 border-[#1e8fff3a] bg-[#1e8fff1a] flex gap-5 items-center"
+          >
+            <div>
+              <img
+                class="w-20 md:w-40"
+                src="https://cdn-icons-png.flaticon.com/512/5309/5309804.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="font-semibold text-3xl">IELTS & Basic English</p>
+              <p class="mt-3">
+                Live and Recorded class for the learners, special batch for
+                executives.
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div
+            class="rounded-xl border-2 p-5 border-[#1e8fff3a] bg-[#1e8fff1a] flex gap-5 items-center"
+          >
+            <div>
+              <img
+                class="w-20 md:w-40"
+                src="https://cdn-icons-png.flaticon.com/512/1197/1197409.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="font-semibold text-3xl">Programming & Web Dev.</p>
+              <p class="mt-3">Your road to IT world starts.</p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div
+            class="rounded-xl border-2 p-5 border-[#1e8fff3a] bg-[#1e8fff1a] flex gap-5 items-center"
+          >
+            <div>
+              <img
+                class="w-20 md:w-40"
+                src="https://cdn-icons-png.flaticon.com/512/3696/3696638.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p class="font-semibold text-3xl">Personal Development.</p>
+              <p class="mt-3">
+                Be a Better person by public speaking and commutation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Third Section -->
+      <div class="container mx-auto px-2 lg:px-5 mt-5 md:mt-10 lg:mt-20 p-10">
+        <div
+          class="drop-shadow-2xl items-center content-center p-10 bg-white rounded-xl flex flex-col-reverse lg:flex-row gap-5 lg:gap-10"
+        >
+          <div class="w-full lg:w-1/2 overflow-hidden object-cover rounded-lg">
+            <img
+              src="https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?cs=srgb&dl=pexels-seven11nash-380768.jpg&fm=jpg"
+              alt=""
+            />
+          </div>
+          <div class="w-full lg:w-1/2">
+            <p class="flex gap-1 font-semibold align-center">
+              Welcome to
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4295/4295332.png"
+                width="25"
+                height="256"
+                alt=""
+                title=""
+                class="img-small"
+              />
+            </p>
+            <p class="mt-2 font-extrabold text-3xl">
+              Grow<span class="text-[#32CD32]">Skill</span>
+            </p>
+            <p class="mt-2 font-semibold text-2xl">
+              We will make you market ready.
+            </p>
+            <p class="font-semibold text-2xl">Join us and start today.</p>
+            <ul class="mt-5 flex flex-col gap-2">
+              <li class="align-center flex gap-1">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/9282/9282598.png"
+                  width="25"
+                  alt=""
+                  title=""
+                  class="img-small"
+                />Primary education.
+              </li>
+              <li class="align-center flex gap-1">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/9282/9282598.png"
+                  width="25"
+                  alt=""
+                  title=""
+                  class="img-small"
+                />Real world job skill.
+              </li>
+              <li class="align-center flex gap-1">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/9282/9282598.png"
+                  width="25"
+                  alt=""
+                  title=""
+                  class="img-small"
+                />Personality training.
+              </li>
+              <li class="align-center flex gap-1">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/9282/9282598.png"
+                  width="25"
+                  alt=""
+                  title=""
+                  class="img-small"
+                />Job placement in top companies.
+              </li>
+            </ul>
+            <a href="#"
+              ><button
+                class="mt-5 px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+              >
+                Find Your Course
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Section -->
+      <div class="container mx-auto px-2 lg:px-5 mt-5 md:mt-10 lg:mt-20">
+        <!-- Head Title -->
+        <div class="flex flex-col items-center gap-3 lg:gap-5">
+          <h2 class="w-full lg:w-1/2 text-center font-bold text-4xl leading-30">
+            Choose your course.
+          </h2>
+          <p class="w-full lg:w-1/2 text-center">
+            Choose course of your choice and learn everything about anything!
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-5 lg:mt-10">
+          <!-- card -->
+          <div class="rounded-xl shadow-md">
+            <div class="rounded-tl-xl rounded-tr-xl">
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-3866.jpg?t=st=1726271925~exp=1726275525~hmac=bddd084447d2cb6a00518872dc54f23e1977cca4bc3eb8e11345864fe06d3c63&w=996"
+                alt=""
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+              <h4 class="text-2xl font-bold">
+                The Complete Web Development Bootcamp 2024
+              </h4>
+              <p>
+                Become a Full-Stack <strong>Web Developer</strong> with just ONE
+                course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and
+                DApps
+              </p>
+              <div class="flex items-center gap-2">
+                <p class="font-bold text-lg">4.7</p>
+                <div class="flex items-center text-xl" id="rating">
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-300 cursor-pointer">★</span>
+                </div>
+              </div>
+              <p>total 60 hours 350 lectures</p>
+              <div class="flex gap-2">
+                <p class="font-bold text-xl">$13.99</p>
+                <p class="line-through text-lg text-stone-500">$74.99</p>
+              </div>
+              <div class="flex justify-end">
+                <a href="#">
+                  <button
+                    class="px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+                  >
+                    Enroll Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="rounded-xl shadow-md">
+            <div class="rounded-tl-xl rounded-tr-xl">
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://img.freepik.com/free-vector/young-man-with-shield-against-criminal-conspiracy-thief-man-black-mask-with-sword-protection-idea-software-access-data-as-confidential-flat-illustration_1150-39292.jpg?t=st=1726274717~exp=1726278317~hmac=040784d6ac32fea24640e0f28eba5a6489a4e84d6d1b21b92b4be42797cbf038&w=996"
+                alt=""
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+              <h4 class="text-2xl font-bold">
+                Learn Ethical Hacking From Scratch 2024
+              </h4>
+              <p>
+                Become an <strong>ethical</strong> <strong>hacker</strong> that
+                can <strong>hack</strong> like black hat
+                <strong>hackers</strong> and secure systems like cybersecurity
+                experts. Be the pioneer of <strong>Cyber world</strong>
+              </p>
+              <div class="flex items-center gap-2">
+                <p class="font-bold text-lg">4.6</p>
+                <div class="flex items-center text-xl" id="rating">
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-300 cursor-pointer">★</span>
+                </div>
+              </div>
+              <p>total 15 hours 140 lectures</p>
+              <div class="flex gap-2">
+                <p class="font-bold text-xl">$13.99</p>
+                <p class="line-through text-lg text-stone-500">$74.99</p>
+              </div>
+              <div class="flex justify-end">
+                <a href="#">
+                  <button
+                    class="px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+                  >
+                    Enroll Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="rounded-xl shadow-md">
+            <div class="rounded-tl-xl rounded-tr-xl">
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://img.freepik.com/free-vector/online-tutorials-concept_52683-37480.jpg?t=st=1726274985~exp=1726278585~hmac=f4730eb53b0b852e0ee6f433ab17c5b1bd99120d799447627122be6a229c28b4&w=996"
+                alt=""
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+              <h4 class="text-2xl font-bold">
+                Master in IELTS and Basic English Perfect band 8.00
+              </h4>
+              <p>
+                Unlock your potential and achieve your dream
+                <strong>IELTS</strong> score with our comprehensive course
+                designed to <strong>master the IELTS</strong> exam and enhance
+                your basic English skills.
+              </p>
+              <div class="flex items-center gap-2">
+                <p class="font-bold text-lg">4.8</p>
+                <div class="flex items-center text-xl" id="rating">
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-400 cursor-pointer">★</span>
+                </div>
+              </div>
+              <p>total 60 hours 350 lectures</p>
+              <div class="flex gap-2">
+                <p class="font-bold text-xl">$13.99</p>
+                <p class="line-through text-lg text-stone-500">$74.99</p>
+              </div>
+              <div class="flex justify-end">
+                <a href="#">
+                  <button
+                    class="px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+                  >
+                    Enroll Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="rounded-xl shadow-md">
+            <div class="rounded-tl-xl rounded-tr-xl">
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://img.freepik.com/free-vector/illustration-blogger-review-concept_23-2148521927.jpg?t=st=1726275485~exp=1726279085~hmac=74a1d5c618ccdbf6704ba511cfb12bb49e0eec8cb7dc99ddaa0193dd0aac1679&w=996"
+                alt=""
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+              <h4 class="text-2xl font-bold">
+                Content Marketing: Business Growth w/Content Marketing + AI
+              </h4>
+              <p>
+                Modern <strong>Content</strong> Marketing +
+                <strong>Content</strong> <strong>Creation</strong> to Grow your
+                Business | Marketing Funnels | ChatGPT
+                <strong>Content</strong> Marketing
+              </p>
+              <div class="flex items-center gap-2">
+                <p class="font-bold text-lg">4.5</p>
+                <div class="flex items-center text-xl" id="rating">
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-200 cursor-pointer">★</span>
+                </div>
+              </div>
+              <p>total 13 hours 23 lectures</p>
+              <div class="flex gap-2">
+                <p class="font-bold text-xl">$11.99</p>
+                <p class="line-through text-lg text-stone-500">$62.99</p>
+              </div>
+              <div class="flex justify-end">
+                <a href="#">
+                  <button
+                    class="px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+                  >
+                    Enroll Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="rounded-xl shadow-md hidden lg:block">
+            <div class="rounded-tl-xl rounded-tr-xl">
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://img.freepik.com/free-vector/hand-drawn-business-communication-concept_23-2149171107.jpg?t=st=1726275846~exp=1726279446~hmac=fe9940b455e32b1c9ceea3df992629867aa9bc67d1991fd7e1f30ee82499129c&w=996"
+                alt=""
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+              <h4 class="text-2xl font-bold">
+                The Complete Communication Skills Master Class for Life
+              </h4>
+              <p>
+                Become an Effective Communicator And Learn How to Get Your
+                Message Across By Learning
+                <strong>Communication</strong> Fundamentals
+              </p>
+              <div class="flex items-center gap-2">
+                <p class="font-bold text-lg">4.8</p>
+                <div class="flex items-center text-xl" id="rating">
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-400 cursor-pointer">★</span>
+                </div>
+              </div>
+              <p>total 25 hours 43 lectures</p>
+              <div class="flex gap-2">
+                <p class="font-bold text-xl">$13.99</p>
+                <p class="line-through text-lg text-stone-500">$39.99</p>
+              </div>
+              <div class="flex justify-end">
+                <a href="#">
+                  <button
+                    class="px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+                  >
+                    Enroll Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="rounded-xl shadow-md hidden lg:block">
+            <div class="rounded-tl-xl rounded-tr-xl">
+              <img
+                class="rounded-tl-xl rounded-tr-xl"
+                src="https://img.freepik.com/free-vector/science-laboratory-purple-background-tubes-lamps_613284-636.jpg?t=st=1726276076~exp=1726279676~hmac=2ab26a1fb4716a413e6a0e338292d1c36e52699055a975ce8cbc92c7425ddca7&w=996"
+                alt=""
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2">
+              <h4 class="text-2xl font-bold">
+                Complete General Chemistry 20+ hours of lectures & examples
+              </h4>
+              <p>
+                An Overview of <strong>Organic</strong> Chemistry Topics. Master
+                General <strong>Chemistry</strong> in 4 weeks by solving
+                examples & problems of Chemical Engineering Department
+              </p>
+              <div class="flex items-center gap-2">
+                <p class="font-bold text-lg">4.3</p>
+                <div class="flex items-center text-xl" id="rating">
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-500 cursor-pointer">★</span>
+                  <span class="star text-yellow-100 cursor-pointer">★</span>
+                </div>
+              </div>
+              <p>total 20.5 hours 191 lectures</p>
+              <div class="flex gap-2">
+                <p class="font-bold text-xl">$14.99</p>
+                <p class="line-through text-lg text-stone-500">$64.99</p>
+              </div>
+              <div class="flex justify-end">
+                <a href="#">
+                  <button
+                    class="px-5 py-2 bg-[#1e8fff] text-white hover:bg-[#47a3ff] font-bold rounded-md"
+                  >
+                    Enroll Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center mt-5 lg:mt-10">
+          <div class="border-2 mt-5 px-5 py-2 rounded-full hover:bg-stone-100">
+            <a href=""
+              ><div class="flex items-center gap-3">
+                <p class="font-semibold">Explore our other Courses</p>
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  height="25px"
+                  width="25px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23.0677 11.9929L18.818 7.75739L17.4061 9.17398L19.2415 11.0032L0.932469 11.0012L0.932251 13.0012L19.2369 13.0032L17.4155 14.8308L18.8321 16.2426L23.0677 11.9929Z"
+                    fill="currentColor"
+                  ></path>
+                </svg></div
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fifth Section -->
+      <div class="container mx-auto px-2 lg:px-5 mt-5 md:mt-10 lg:mt-20">
+        <!-- Head Title -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 flex-col items-center px-10 lg:px-20 gap-5 lg:gap-20"
+        >
+          <div>
+            <img
+              src="https://img.freepik.com/free-vector/kids-online-lessons_52683-36818.jpg?t=st=1726277472~exp=1726281072~hmac=545a1479d3109a792d95c3c60b1441134c6906277133df7433b5f23d9e9e2a3f&w=996"
+              alt=""
+            />
+            <h2 class="mt-5 font-bold text-2xl">Daily live classes</h2>
+            <p class="mt-2">
+              Connect with educators, ask questions, answer live polls, and get
+              your doubts cleared - all while the class is going on
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://img.freepik.com/free-vector/student-using-laptop-studying-desk_1262-21429.jpg?t=st=1726277860~exp=1726281460~hmac=63d4cd7cba3fc7ca78251eeda9923c675400ea0264c4a74f8e48540679b98fb9&w=996"
+              alt=""
+            />
+            <h2 class="mt-5 font-bold text-2xl">Practice and revise</h2>
+            <p class="mt-2">
+              Learning isn't just limited to classes with our practice section,
+              mock tests and lecture notes shared as PDFs for your revision
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://img.freepik.com/free-vector/hand-holding-smartphone-with-tutor-screen_1262-20644.jpg?t=st=1726277898~exp=1726281498~hmac=b42febc481cb4f9d7495c0b1662a352e50f7d7b05b38a173eecc7bdd0dbb9065&w=996"
+              alt=""
+            />
+            <h2 class="mt-5 font-bold text-2xl">Learn anytime, anywhere</h2>
+            <p class="mt-2">
+              One subscription gets you access to all our live and recorded
+              classes to watch from the comfort of any of your devices
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Sixth Section -->
+      <div class="container mx-auto px-2 lg:px-5 mt-5 md:mt-10 lg:mt-20">
+        <!-- Head Title -->
+        <div class="flex flex-col items-center gap-3 lg:gap-5">
+          <h2 class="w-full lg:w-1/2 text-center font-bold text-4xl leading-30">
+            Why choose us
+          </h2>
+          <p class="w-full lg:w-1/2 text-center">
+            We have millions of students and
+            <span class="text-[#32CD32]">700K+</span> learners reviews!
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 px-10 lg:px-20 gap-10 xl:gap-20 mt-20"
+        >
+          <!-- Review -->
+          <div class="relative p-5 pt-12 border-2 rounded-lg">
+            <svg
+            class="bg-[#1e8fff] text-white rounded-full p-3 absolute -top-6"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="50px"
+              width="50px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"
+              ></path>
+            </svg>
+            <p>
+              Each section of the course had clear instructions. Especially, the
+              “Reading” and “Writing” sections were so informative that they
+              made both the Mock Test and the Real Exam easier for me. My
+              favorite part was the “Writing Part.”
+            </p>
+            <h5 class="font-semibold mt-8 text-lg">Tahiya Faiza</h5>
+            <p>Teaching Assistant</p>
+          </div>
+          
+          <!-- Review -->
+          <div class="relative p-5 pt-12 border-2 rounded-lg">
+            <svg
+            class="bg-[#1e8fff] text-white rounded-full p-3 absolute -top-6"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="50px"
+              width="50px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"
+              ></path>
+            </svg>
+            <p>
+              I had an online page, but I didn’t know how to move forward with it. Through the course, I learned how to make a basic post, how to use it, and how to contact people.</p>
+            <h5 class="font-semibold mt-8 text-lg">Hasibur Rahman</h5>
+            <p>Online Business Owner</p>
+          </div>
+          <!-- Review -->
+          <div class="relative p-5 pt-12 border-2 rounded-lg">
+            <svg
+            class="bg-[#1e8fff] text-white rounded-full p-3 absolute -top-6"
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              height="50px"
+              width="50px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.5 10c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.318.142-.686.238-1.028.466-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.945-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 6.5 10zm11 0c-.223 0-.437.034-.65.065.069-.232.14-.468.254-.68.114-.308.292-.575.469-.844.148-.291.409-.488.601-.737.201-.242.475-.403.692-.604.213-.21.492-.315.714-.463.232-.133.434-.28.65-.35l.539-.222.474-.197-.485-1.938-.597.144c-.191.048-.424.104-.689.171-.271.05-.56.187-.882.312-.317.143-.686.238-1.028.467-.344.218-.741.4-1.091.692-.339.301-.748.562-1.05.944-.33.358-.656.734-.909 1.162-.293.408-.492.856-.702 1.299-.19.443-.343.896-.468 1.336-.237.882-.343 1.72-.384 2.437-.034.718-.014 1.315.028 1.747.015.204.043.402.063.539l.025.168.026-.006A4.5 4.5 0 1 0 17.5 10z"
+              ></path>
+            </svg>
+            <p>
+              I didn’t have enough time for offline learning, so I chose an online course. The course beautifully covered the rules of English. By practicing daily, I was able to quickly master accurate Communication.</p>
+            <h5 class="font-semibold mt-8 text-lg">Zakirul Islam</h5>
+            <p>Businessman</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Design Ends Till This DIV -->
+  </body>
+</html>
